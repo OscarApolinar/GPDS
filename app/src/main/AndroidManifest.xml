@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.paleteriadjn">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/djnsinfondo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PaleteriaDJN"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivityProv"
+            android:exported="false" />
+        <activity
+            android:name=".ProveedorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NuevoProveedorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListaProveedoresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConsultarTodosProductos"
+            android:exported="false" />
+        <activity
+            android:name=".PantPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".EliminarProducto"
+            android:exported="false" />
+        <activity
+            android:name=".ModificarProducto"
+            android:exported="false" />
+        <activity
+            android:name=".CrearProductos"
+            android:exported="false" />
+        <activity
+            android:name=".ConsultarProducto"
+            android:exported="false" />
+        <activity
+            android:name=".OlvidarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearCuentaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ListaProductosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NuevoProductoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

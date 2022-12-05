@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="API">
+<menu>
+        <item android:id="@+id/nav_item_one"
+            android:icon="@drawable/ic_baseline"
+            android:title="Consultar Producto por ID"/>
+        <item android:id="@+id/nav_item_eleven"
+             android:icon="@drawable/ic_baseline"
+             android:title="Consultar Productos"/>
+        <item android:id="@+id/nav_item_twelve"
+            android:icon="@drawable/ic_baseline"
+            android:title="Crear Producto"/>
+        <item android:id="@+id/nav_item_trece"
+            android:icon="@drawable/ic_baseline"
+            android:title="Modificar Producto"/>
+        <item android:id="@+id/nav_item_catorce"
+            android:icon="@drawable/ic_baseline"
+            android:title="Eliminar Producto"/>
+
+
+</menu>
+
+</item>
+
+
+    <item android:title="PRODUCTOS">
+        <menu>
+            <item android:id="@+id/nav_item_three"
+                android:icon="@drawable/ic_baseline"
+                android:title="Productos"/>
+        </menu>
+    </item>
+
+    <item android:title="PROVEEDORES">
+        <menu>
+
+            <item android:id="@+id/nav_item_dos"
+                android:icon="@drawable/ic_baseline"
+                android:title="Proveedores"/>
+        </menu>
+
+    </item>
+
+
+
+    <item android:title="LOGOUT">
+        <menu>
+        <item android:id="@+id/nav_item_six"
+            android:icon="@drawable/ic_salir"
+            android:title="Cerrar sesión" />
+        </menu>
+    </item>
+
+</menu>

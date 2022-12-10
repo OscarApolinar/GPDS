@@ -1,0 +1,14 @@
+Proyecto creado en Android Studio
+
+Aplicacion entregada y validada en la materia de "Desarrollo Movil Integral"
+
+La tematica del proyecto es continuación del cuatrimestre pasado, automatización del almacen de una paleteria
+
+-Descargar la aplicacion en Zip desde "https://github.com/OscarApolinar/GPDS.git" o en su caso clonar desde el mismo repositorio
+-Descompirmir el Zip o localizar la carpeta 
+-Abrir Android Studio y abrir el proyecto, es facil de localizar ya que en vez de un icono de carpeta es un icono de android
+-Esperar a que inicialize el proyecto para que actualice algunas librerias
+-Ejecutar el emulador desde Android Studio o bien instalar la app en algun celular Android
+-Iniciar sesión en la aplicacion
+-Ejecutar o hacer cambios en la aplicacion (CRUD)
+-Los cambios se veran reflejados en la vista "http://paleteriadjn.online/public/api/productos"
